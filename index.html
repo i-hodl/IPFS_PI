@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IPFS GUI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>IPFS GUI</h1>
+    <form enctype="multipart/form-data">
+        <input type="file" id="file-input" name="fileInput">
+        <button type="submit">Upload</button>
+    </form>
+    <br>
+    <br>
+    <a id="uploaded-link" href="" target="_blank"></a>
+    <script src="https://cdn.jsdelivr.net/npm/ipfs-http-client@49.0.2/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cors/dist/browser.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
